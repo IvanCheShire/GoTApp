@@ -1,12 +1,18 @@
-package ru.geekbrains.gotapp
+package ru.geekbrains.geekbrains_popular_libraries_kotlin.ui.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.widget.Toolbar
 import com.github.terrakok.cicerone.androidx.AppNavigator
 import moxy.MvpAppCompatActivity
 import moxy.ktx.moxyPresenter
+import ru.geekbrains.geekbrains_popular_libraries_kotlin.R
+import ru.geekbrains.geekbrains_popular_libraries_kotlin.databinding.ActivityMainBinding
+import ru.geekbrains.geekbrains_popular_libraries_kotlin.mvp.presenter.MainPresenter
+import ru.geekbrains.geekbrains_popular_libraries_kotlin.mvp.view.MainView
+import ru.geekbrains.geekbrains_popular_libraries_kotlin.ui.App
+import ru.geekbrains.geekbrains_popular_libraries_kotlin.ui.BackButtonListener
+import ru.geekbrains.geekbrains_popular_libraries_kotlin.ui.navigation.AndroidScreens
 import ru.terrakok.cicerone.NavigatorHolder
 import javax.inject.Inject
 
